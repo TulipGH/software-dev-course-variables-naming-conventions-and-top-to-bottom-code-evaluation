@@ -29,4 +29,11 @@ let itemQuantity = 5;
 let dollars = 20;
 let transaction = firstName + " bought " + itemQuantity + " items for $" + dollars + ".";
 
-console.log(transaction);
+let isMember = (true);
+let membershipDiscount = 5;
+
+if (isMember) {
+  console.log(transaction + " and received a membership discount of $" + membershipDiscount + ".");
+} else {
+  console.log(transaction);
+}
